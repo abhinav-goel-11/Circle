@@ -1,7 +1,7 @@
 import Logo from "@/components/logo";
 import Image from "next/image";
-import App from "./../../public/assets/App.png";
-import Play from "./../../public/assets/Play.png";
+import App from "./../../public/assets/App.svg";
+import Play from "./../../public/assets/Play.svg";
 import Link from "next/link";
 
 export default function Home() {
@@ -30,6 +30,7 @@ export default function Home() {
           by{" "}
           <Link
             href={"http://www.linkedin.com/in/developerpramesh"}
+            target="_blank"
             className="text-[#1AC95F]"
           >
             Pramesh
@@ -37,6 +38,7 @@ export default function Home() {
           &{" "}
           <Link
             href={"http://www.linkedin.com/in/souravisuncool"}
+            target="_blank"
             className="text-[#1AC95F]"
           >
             Sourav
