@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen max-w-[1440px] mx-auto">
+    <main className="min-h-svh max-w-[1440px] flex flex-col items-center">
       <header className="h-16 sm:h-[96px] flex items-center justify-center">
         <Logo />
       </header>
-      <section className="flex items-center justify-center h-[calc(100svh-64px-140px)] sm:h-[calc(100vh-96px-56px)]">
+      <section className=" flex items-center justify-center flex-1 ">
         <div className="flex items-center flex-col gap-14 sm:gap-8">
           <h2 className="text-white/60 text-xl sm:text-[1.75rem] font-normal text-center w-[272px] sm:w-[380px] leading-[1.3]">
             See what&apos;s happening locally within 5 km radius.
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="max-w-[1200px] mx-auto pb-8 gap-y-6 sm:gap-0 flex flex-col sm:flex-row  items-center sm:justify-between text-sm font-normal ">
+      <footer className="max-w-[1200px] w-full mt-auto pb-8 gap-y-6 sm:gap-0 flex flex-col sm:flex-row  items-center sm:justify-between text-sm font-normal ">
         <div className="text-[#fff]/50">Crafted with ❤️ in INDIA</div>
         <div className="text-[#fff]/50">
           © Copyright 2024 Joincircle.life - All Rights Reserved.
