@@ -23,18 +23,20 @@ export default function Home() {
       </section>
       <footer className="max-w-[1200px] mx-auto pb-8 gap-y-6 sm:gap-0 flex flex-col sm:flex-row  items-center sm:justify-between text-sm font-normal ">
         <div className="text-[#fff]/50">Crafted with ❤️ in INDIA</div>
-        <div className="text-[#fff]/50">© Copyright 2024 Joincircle.life - All Rights Reserved.</div>
+        <div className="text-[#fff]/50">
+          © Copyright 2024 Joincircle.life - All Rights Reserved.
+        </div>
         <div className="text-[#fff]/50">
           by{" "}
           <Link
-            href={"http://www.linkedin.com/in/souravisuncool"}
+            href={"http://www.linkedin.com/in/developerpramesh"}
             className="text-[#1AC95F]"
           >
             Pramesh
           </Link>{" "}
           &{" "}
           <Link
-            href={"http://www.linkedin.com/in/developerpramesh"}
+            href={"http://www.linkedin.com/in/souravisuncool"}
             className="text-[#1AC95F]"
           >
             Sourav
