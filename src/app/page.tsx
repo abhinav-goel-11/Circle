@@ -10,7 +10,7 @@ export default function Home() {
       <header className="h-16 sm:h-[96px] flex items-center justify-center">
         <Logo />
       </header>
-      <section className="flex items-center justify-center h-[calc(100vh-64px-140px)] sm:h-[calc(100vh-96px-56px)]">
+      <section className="flex items-center justify-center h-[calc(100svh-64px-140px)] sm:h-[calc(100vh-96px-56px)]">
         <div className="flex items-center flex-col gap-14 sm:gap-8">
           <h2 className="text-white/60 text-xl sm:text-[1.75rem] font-normal text-center w-[272px] sm:w-[380px] leading-[1.3]">
             See what&apos;s happening locally within 5 km radius.
