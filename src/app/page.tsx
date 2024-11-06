@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-svh max-w-[1440px] flex flex-col items-center">
+    <main className="min-h-svh max-w-[1440px] mx-auto flex flex-col items-center">
       <header className="h-16 sm:h-[96px] flex items-center justify-center">
         <Logo />
       </header>
