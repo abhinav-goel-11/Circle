@@ -13,7 +13,7 @@ export default function Home() {
       <section className=" flex items-center justify-center flex-1 ">
         <div className="flex items-center flex-col gap-14 sm:gap-8">
           <h2 className="text-white/60 text-xl sm:text-[1.75rem] font-normal text-center w-[272px] sm:w-[380px] leading-[1.3]">
-            See what&apos;s happening locally within 5 km radius.
+            See what&apos;s happening locally within 15 km radius.
           </h2>
           <div className="flex flex-col gap-y-6 sm:flex-row items-center gap-x-8 h-[66px] sm:h-[72px]">
             <Image src={App} alt="app store" className="h-full w-auto" />
@@ -24,17 +24,17 @@ export default function Home() {
       <footer className="max-w-[1200px] w-full mt-auto pb-8 gap-y-6 sm:gap-0 flex flex-col sm:flex-row  items-center sm:justify-between text-sm font-normal ">
         <div className="text-[#fff]/50">Crafted with ❤️ in INDIA</div>
         <div className="text-[#fff]/50">
-          © Copyright 2024 Joincircle.life - All Rights Reserved.
+          © Copyright 2025 Joincircle.life - All Rights Reserved.
         </div>
         <div className="text-[#fff]/50">
           by{" "}
-          <Link
+          {/* <Link
             href={"http://www.linkedin.com/in/developerpramesh"}
             target="_blank"
             className="text-[#1AC95F]"
           >
             Pramesh
-          </Link>{" "}
+          </Link>{" "} */}
           &{" "}
           <Link
             href={"http://www.linkedin.com/in/souravisuncool"}
