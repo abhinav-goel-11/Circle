@@ -35,7 +35,7 @@ export default function Home() {
           >
             Pramesh
           </Link>{" "} */}
-          &{" "}
+          {/* &{" "} */}
           <Link
             href={"http://www.linkedin.com/in/souravisuncool"}
             target="_blank"
