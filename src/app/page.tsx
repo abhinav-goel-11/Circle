@@ -1,9 +1,10 @@
 import Logo from "@/components/logo";
 import Image from "next/image";
-import App from "./../../public/assets/App.svg";
-import Play from "./../../public/assets/Play.svg";
 import Link from "next/link";
 import Heart from "../../public/assets/pixel-heart.svg";
+import Apple from "../../public/assets/apple-logo.svg";
+import Playstore from "../../public/assets/playstore-logo.svg";
+import fingers from "../../public/assets/🤞🏻.png";
 export default function Home() {
   return (
     <main className="min-h-svh max-w-[1440px] mx-auto flex flex-col items-center">
@@ -16,8 +17,57 @@ export default function Home() {
             see what&apos;s happening locally within 15 km radius
           </h1>
           <div className="flex flex-col gap-y-6 sm:flex-row items-center gap-x-8 h-[66px] sm:h-[72px]">
-            <Image src={App} alt="app store" className="h-full w-auto" />
-            <Image src={Play} alt="Play store" className="h-full w-auto" />
+            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl px-3 h-[72px] flex  items-center justify-center gap-x-[14px] group cursor-pointer">
+              <div>
+                <Image
+                  src={Apple}
+                  alt="apple logo"
+                  className="h-[38px] w-[38px] group-hover:hidden"
+                />
+                <Image
+                  src={fingers}
+                  alt="apple logo"
+                  className="h-8 w-8 hidden group-hover:block"
+                />
+              </div>
+
+              <div className="flex flex-col group-hover:hidden">
+                <p className="text-[#0B5127] font-medium text-xs">
+                  Coming soon to the
+                </p>
+                <p className="text-[#0B5127] font-semibold text-xl">
+                  App Store
+                </p>
+              </div>
+              <div className="text-base font-semibold text-[#1AC95F] hidden group-hover:block">
+                Still in making!
+              </div>
+            </div>
+            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl px-3 h-[72px] flex items-center justify-center gap-x-[14px] group cursor-pointer">
+              <div>
+                <Image
+                  src={Playstore}
+                  alt="playstore logo"
+                  className="h-[38px] w-[38px] group-hover:hidden"
+                />
+                <Image
+                  src={fingers}
+                  alt="apple logo"
+                  className="h-8 w-8 hidden group-hover:block"
+                />
+              </div>
+              <div className="flex flex-col group-hover:hidden">
+                <p className="text-[#0B5127] font-medium text-xs">
+                  Coming soon to the
+                </p>
+                <p className="text-[#0B5127] font-semibold text-xl">
+                  Play Store
+                </p>
+              </div>
+              <div className="text-base font-semibold text-[#1AC95F] hidden group-hover:block">
+                Still in making!
+              </div>
+            </div>
           </div>
         </div>
       </section>
