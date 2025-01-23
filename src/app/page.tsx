@@ -17,7 +17,7 @@ export default function Home() {
             see what&apos;s happening locally within 15 km radius
           </h1>
           <div className="flex flex-col gap-y-6 sm:flex-row items-center gap-x-8 h-[66px] sm:h-[72px]">
-            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl px-3 h-[72px] flex  items-center justify-center gap-x-[14px] group cursor-pointer">
+            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl w-[200px] h-[72px] flex  items-center justify-center gap-x-[14px] group cursor-pointer">
               <div>
                 <Image
                   src={Apple}
@@ -43,7 +43,7 @@ export default function Home() {
                 Still in making!
               </div>
             </div>
-            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl px-3 h-[72px] flex items-center justify-center gap-x-[14px] group cursor-pointer">
+            <div className="bg-[#1AC95F] hover:bg-white rounded-2xl h-[72px] w-[200px] flex items-center justify-center gap-x-[14px] group cursor-pointer">
               <div>
                 <Image
                   src={Playstore}
