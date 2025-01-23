@@ -3,7 +3,7 @@ import Image from "next/image";
 import App from "./../../public/assets/App.svg";
 import Play from "./../../public/assets/Play.svg";
 import Link from "next/link";
-
+import Heart from "../../public/assets/pixel-heart.svg";
 export default function Home() {
   return (
     <main className="min-h-svh max-w-[1440px] mx-auto flex flex-col items-center">
@@ -22,7 +22,10 @@ export default function Home() {
         </div>
       </section>
       <footer className="max-w-[1200px] w-full mt-auto pb-8 gap-y-6 sm:gap-0 flex flex-col sm:flex-row  items-center sm:justify-between text-sm font-normal ">
-        <div className="text-[#fff]/50">Crafted with ❤️ in INDIA</div>
+        <div className="text-[#fff]/50 flex items-center">
+          <Image src={Heart} alt="heart" className="h-14 w-14" />{" "}
+          <span>Made with passion in INDIA</span>
+        </div>
         <div className="text-[#fff]/50">
           © Copyright 2025 Joincircle.life - All Rights Reserved.
         </div>
