@@ -16,7 +16,7 @@ export default function Home() {
           <h1 className="text-white/60 text-xl sm:text-[1.75rem] font-normal text-center w-[272px] sm:w-[380px] leading-[1.3]">
             see what&apos;s happening locally within 15 km radius
           </h1>
-          <div className="flex flex-col gap-y-6 sm:flex-row items-center gap-x-8 h-[66px] sm:h-[72px]">
+          <div className="flex flex-col gap-y-6 sm:flex-row items-center gap-x-8 ">
             <div className="bg-[#1AC95F] hover:bg-white rounded-2xl w-[200px] h-[72px] flex  items-center justify-center gap-x-[14px] group cursor-pointer">
               <div>
                 <Image
@@ -35,7 +35,7 @@ export default function Home() {
                 <p className="text-[#0B5127] font-medium text-xs">
                   Coming soon to the
                 </p>
-                <p className="text-[#0B5127] font-semibold text-xl">
+                <p className="text-[#0B5127] font-semibold text-lg sm:text-xl">
                   App Store
                 </p>
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
                 <p className="text-[#0B5127] font-medium text-xs">
                   Coming soon to the
                 </p>
-                <p className="text-[#0B5127] font-semibold text-xl">
+                <p className="text-[#0B5127] font-semibold text-lg sm:text-xl">
                   Play Store
                 </p>
               </div>
